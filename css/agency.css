@@ -2,6 +2,7 @@
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ Man's Best Friend Blue Color: #3bbfea;
  */
 body {
   overflow-x: hidden;
@@ -11,7 +12,7 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #fed136;
+  color: #3bbfea;
 }
 p {
   font-size: 14px;
@@ -28,13 +29,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #3bbfea;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #3bbfea;
 }
 h1,
 h2,
@@ -57,8 +58,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #3bbfea;
+  border-color: #3bbfea;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -69,7 +70,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
+  background-color: #3bbfea;
   border-color: #f6bf01;
 }
 .btn-primary:active,
@@ -92,17 +93,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #3bbfea;
+  border-color: #3bbfea;
 }
 .btn-primary .badge {
-  color: #fed136;
+  color: #3bbfea;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #3bbfea;
+  border-color: #3bbfea;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -116,7 +117,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
+  background-color: #3bbfea;
   border-color: #f6bf01;
 }
 .btn-xl:active,
@@ -139,33 +140,35 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #3bbfea;
+  border-color: #3bbfea;
 }
 .btn-xl .badge {
-  color: #fed136;
+  color: #3bbfea;
   background-color: white;
 }
-.navbar-custom {
+.avbar-customn {
   background-color: #222222;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #3bbfea;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 }
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #3bbfea;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #3bbfea;
+  border-color: #3bbfea;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -173,30 +176,51 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #3bbfea;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
+  /*color: #3bbfea;*/
+  font-weight: bold;
   color: white;
+  font-size: 1.5em;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #3bbfea;
   outline: none;
 }
+
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #3bbfea;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #3bbfea;
 }
+
+.about-text {
+  line-height: 40px !important;
+  margin-bottom: 0 !important;
+  font-size: 15px !important;
+}
+
+.log-line {
+  font-weight: bold !important;
+}
+
+.intro-heading {
+  font-family: 'Sigmar One', cursive;
+  color: #3bbfea;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -207,7 +231,8 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    display: none;
+    font-size: 3em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -222,6 +247,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
+    display: block;
     font-size: 1.5em;
   }
 }
@@ -238,7 +264,7 @@ header {
   color: white;
 }
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 410px;
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
@@ -249,7 +275,9 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: none;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 35px;
@@ -269,7 +297,9 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    font-family: 'Sigmar One', cursive;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 55px;
@@ -278,8 +308,9 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+
 section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -296,7 +327,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 75px 0;
   }
 }
 .service-heading {
@@ -422,7 +453,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #3bbfea;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -559,6 +590,7 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
+  padding: 37px;
 }
 section#contact .section-heading {
   color: white;
@@ -577,7 +609,7 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #3bbfea;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -609,15 +641,20 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #e74c3c;
 }
+section .contact-email-section {
+  margin: 0 !important;
+  color: #d0c8c8;
+}
 footer {
   padding: 25px 0;
   text-align: center;
 }
-footer span.copyright {
+footer div.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  margin-top: 10px;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -646,7 +683,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #3bbfea;
 }
 .btn:focus,
 .btn:active,
@@ -730,11 +767,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #3bbfea;
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #3bbfea;
 }
 img::selection {
   background: transparent;
@@ -743,5 +780,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #fed136;
+  webkit-tap-highlight-color: #3bbfea;
 }

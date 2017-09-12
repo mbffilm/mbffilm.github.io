@@ -1,14 +1,18 @@
 // Agency Theme JavaScript
 
 (function($) {
-    "use strict"; // Start of use strict
+    'use strict'; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
+        $('html, body').stop().animate(
+            {
+                scrollTop: $($anchor.attr('href')).offset().top - 50
+            },
+            1250,
+            'easeInOutExpo'
+        );
         event.preventDefault();
     });
 
@@ -19,8 +23,8 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
-            $('.navbar-toggle:visible').click();
+    $('.navbar-collapse ul li a').click(function() {
+        $('.navbar-toggle:visible').click();
     });
 
     // Offset for Main Navigation
@@ -28,6 +32,7 @@
         offset: {
             top: 100
         }
-    })
-
+    });
+    //Adds contact emails with script so that web scrappers can't access them
+    $('.contact-email-section').text('natashablass@gmail.com | schmallonee@gmail.com');
 })(jQuery); // End of use strict
