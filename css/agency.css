@@ -4,6 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  Man's Best Friend Blue Color: #3bbfea;
  */
+ @font-face {
+    font-family: 'bubbleboddyregular';
+    src: url('bubbleboddy-fattrial-webfont.woff2') format('woff2'),
+         url('bubbleboddy-fattrial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -153,7 +161,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #3bbfea;
-  font-family: 'Sigmar One', cursive;
+  font-family: 'bubbleboddyregular';
   font-size: 14px;
   text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 }
@@ -217,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .intro-heading {
-  font-family: 'Sigmar One', cursive;
+  font-family: 'bubbleboddyregular';
   color: #3bbfea;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
@@ -277,7 +285,7 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
   display: none;
-  font-family: 'Sigmar One', cursive;
+  font-family: 'bubbleboddyregular';
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   text-transform: uppercase;
   font-weight: 700;
@@ -299,7 +307,7 @@ header .intro-text .intro-heading {
   }
   header .intro-text .intro-heading {
     display: block;
-    font-family: 'Sigmar One', cursive;
+    font-family: 'bubbleboddyregular';
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     text-transform: uppercase;
     font-weight: 700;
