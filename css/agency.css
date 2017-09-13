@@ -1,3 +1,4 @@
+
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2016 Start Bootstrap
@@ -161,9 +162,10 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #3bbfea;
-  font-family: 'bubbleboddyregular';
+  /*font-family: 'bubbleboddyregular';*/
+  font-family: 'Oswald', sans-serif;
   font-size: 14px;
-  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+  /*text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;*/
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -221,11 +223,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .log-line {
+  color: black !important;
   font-weight: bold !important;
 }
 
 .intro-heading {
-  font-family: 'bubbleboddyregular';
+  /*font-family: 'bubbleboddyregular';*/
+  font-family: 'Sigmar One', cursive;
   color: #3bbfea;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
@@ -285,7 +289,8 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
   display: none;
-  font-family: 'bubbleboddyregular';
+  /*font-family: 'bubbleboddyregular';*/
+  font-family: 'Sigmar One', cursive;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   text-transform: uppercase;
   font-weight: 700;
@@ -307,7 +312,8 @@ header .intro-text .intro-heading {
   }
   header .intro-text .intro-heading {
     display: block;
-    font-family: 'bubbleboddyregular';
+    /*font-family: 'bubbleboddyregular';*/
+    font-family: 'Sigmar One', cursive;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     text-transform: uppercase;
     font-weight: 700;
