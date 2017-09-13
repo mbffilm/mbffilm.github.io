@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 
 .intro-heading {
   /*font-family: 'bubbleboddyregular';*/
-  font-family: 'Sigmar One', cursive;
+  font-family: 'Oswald', sans-serif;
   color: #3bbfea;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
@@ -290,7 +290,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   display: none;
   /*font-family: 'bubbleboddyregular';*/
-  font-family: 'Sigmar One', cursive;
+  font-family: 'Oswald', sans-serif;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   text-transform: uppercase;
   font-weight: 700;
@@ -313,7 +313,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     display: block;
     /*font-family: 'bubbleboddyregular';*/
-    font-family: 'Sigmar One', cursive;
+    font-family: 'Oswald', sans-serif;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     text-transform: uppercase;
     font-weight: 700;
