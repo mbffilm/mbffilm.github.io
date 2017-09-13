@@ -290,7 +290,7 @@ header .intro-text .intro-heading {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 70px;
-  line-height: 35px;
+  line-height: 70px;
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
@@ -312,7 +312,7 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 70px;
-    line-height: 55px;
+    line-height: 70px;
     margin-top: 50px;
     margin-bottom: 50px;
   }
